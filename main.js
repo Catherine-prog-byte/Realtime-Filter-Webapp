@@ -18,7 +18,7 @@ function draw() {
     fill('#ff0000');
     stroke('#ff0000');
     //circle(noseX,noseY,20);
-    image(clown_nose,noseX,noseY,40,40);
+    image(clown_nose,noseX -10 ,noseY -10 ,40,40);
 }
 function take_snapshot() {
    save('myFilterImage.png')
